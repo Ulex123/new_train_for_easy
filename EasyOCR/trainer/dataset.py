@@ -22,6 +22,7 @@ def _accumulate(iterable, fn=lambda x, y: x + y):
     for element in it:
         total = fn(total, element)
         yield total
+
 def contrast_grey(img):
     high = np.percentile(img, 90)
     low  = np.percentile(img, 10)

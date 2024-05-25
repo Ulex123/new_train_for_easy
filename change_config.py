@@ -12,7 +12,7 @@ def update_yaml_parameters(input_file, updates, name_file):
         data = yaml.safe_load(file)
 
     # Список параметров, которые разрешено изменять
-    allowed_keys = {'experiment_name', 'select_data', 'saved_model', 'num_iter', 'valInterval', 'train_data', 'valid_data'}
+    allowed_keys = {'experiment_name', 'select_data', 'saved_model', 'num_iter', 'valInterval', 'train_data', 'valid_data', 'path_save_model'}
 
     # Обновление данных только для разрешенных параметров
     for key, value in updates.items():
