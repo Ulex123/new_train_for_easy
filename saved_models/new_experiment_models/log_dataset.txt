@@ -1,0 +1,10 @@
+--------------------------------------------------------------------------------
+dataset_root: recognition_module/datasets/dataset1
+opt.select_data: ['dataset']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    recognition_module/datasets/dataset1	 dataset: dataset
+sub-directory:	/dataset	 num samples: 4805
+sub-directory:	/validate	 num samples: 427
+num total samples of dataset: 5232 x 1.0 (total_data_usage_ratio) = 5232
+num samples of dataset per batch: 32 x 1.0 (batch_ratio) = 32
